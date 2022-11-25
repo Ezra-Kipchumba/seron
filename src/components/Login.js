@@ -24,7 +24,7 @@ function Login(){
       }
   }
     return(
-        <div className="login">
+        <div className="loginbox">
       {/* {show ?<button onClick={handleClick} >{show ? "Close":"Create "}Post</button>: null} */}
         <form> 
         
@@ -33,11 +33,13 @@ function Login(){
           <input type="text" name="name" />
         </label><br></br>
         <label>
-          Pasword:<br></br>
+          Password:<br></br>
           <input type="text" name="name" />
         </label><br></br>
-         
+
         <button onClick={handleClick}>Submit</button>
+
+         
          
       </form>
       

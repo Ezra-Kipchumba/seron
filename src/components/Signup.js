@@ -10,7 +10,7 @@ function Signup() {
   
 
   return (
-            <>
+            <div className="reg">
             <div class="rapper">
     <div class="title">
       Registration Form
@@ -76,7 +76,7 @@ function Signup() {
       </div>
     </div>
 </div>	
-            </>
+            </div>
             
   );
 }

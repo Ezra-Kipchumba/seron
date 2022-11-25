@@ -18,32 +18,24 @@ import Request from "./Request";
 function App(){
 
  return(
-<div>
-<NavBar />
-<Routes>
-      <Route  path="/about"element={< About />} />
-        
-        <Route  path="/contact"element={< Contact />} />
-        <Route  path="/portal"element={< Portal />} />
-        <Route  path="/hire"element={< Lawyers />} />
+      <div className="main-body">
+         <NavBar />
+         <Routes className= "sub-body">
+               <Route  path="/about"element={< About />} />
+               
+               <Route  path="/contact"element={< Contact />} />
+               <Route  path="/portal"element={< Portal />} />
+               <Route  path="/hire"element={< Lawyers />} />
 
-        
-         
-        <Route  path="/"element={< Home />} />
-        <Route  path="/request"element={< Request />} />
-        <Route  path="/signup"element={< Signup />} />
-         
-        
-     </Routes>
-        <Footer />
-      
-
-
-         
-         
-       
-
-
+               
+                  
+               <Route  path="/"element={< Home />} />
+               <Route  path="/request"element={< Request />} />
+               <Route  path="/signup"element={< Signup />} />
+                  
+               
+          </Routes>
+          <Footer />
 
         </div>
 

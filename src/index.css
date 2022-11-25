@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,32 +7,51 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin-right: 10px;
   margin-left: 20px;
-  /* background-image: url("background.jpg" ); */
   background-repeat: no-repeat;
   background-size:200vh;
   
-}
+} */
 
+.main-body{
+  position: relative;
+  min-height: 100vh;
+  
+}
+.sub-body{
+  padding-bottom: 3.5rem;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 /* NavBar styling */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 10px){
 .nb{
-  background-color: rgb(84, 177, 166);
-  padding-bottom: 20px;
-  padding-top: 3px;
-  box-shadow: 5px 10px 18px white ;
+  background-color:#1da1f2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  /* padding-bottom: 20px; */
+  padding-right: 30px;
+  /* box-shadow: 5px 10px 18px white ; */
+  /* height: 4cm; */
 }
-.nb li {
-  float:right;
+.nb ul {
+  list-style-type: none;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+/* .nb li {
   display: inline;
   padding-right: 20px;
   text-decoration: none;
-  
-  
-}
+} */
 
 .nb h3{
  
@@ -67,8 +86,7 @@ code {
 }
 .contact {
 padding: 30px;
-color: #1da1f2
-;
+color: #1da1f2;
 
 }
 /* styling login */
@@ -76,7 +94,7 @@ color: #1da1f2
   border: 0px solid black;
   margin-right: 80.5%;
   margin-top: 5px;
-  box-shadow: 5px 10px 13px white;
+  box-shadow: 5px 10px 13px rgb(159, 50, 50);
   border-radius: 20px;
 }
 /* style buttons */
@@ -101,15 +119,16 @@ button{
 .loginbox{
   max-width: 500px;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color:hsl(0, 3%, 29%);
+
   margin: 20px auto;
   padding: 30px;
-  box-shadow: 1px 1px 2px rgb(3, 233, 49);
+  box-shadow: 1px 1px 2px rgb(103, 149, 112);
 }
 
 .wrapper{
-  max-width: 500px;
-  width: 100%;
+  max-width: 50px;
+  width: 20%;
   background-color: rgb(64, 152, 80);
   margin: 20px auto;
   padding: 30px;
@@ -157,17 +176,27 @@ height: 37px;
 }
 .footer{
   background-color: #1DA1F2;
-  display: flex;
-  padding: auto;
+  /* display: flex; */
+  /* padding: auto; */
   justify-content: space-between;
+  position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
   
 }
 
 .footer-col{
-  color: white;
+  color: black;
   width: 30%;
   padding: 0 15px;
-  display: flex;
+  /* display: flex; */
+}
+.reg{
+  background-color:  #141516;
+  text-align: end;
+  color: white;
+  margin-right: 1cm;
 }
 .footer-col h4{
   font-size: 18px;
@@ -209,7 +238,9 @@ height: 37px;
   }
   .about{
     min-height: 64vh;
-    background-color: #f28f1d;
+    background-color: #e0e5e9;
+    color: black;
+
   }
   .lawyers{
     max-width: 500px;
@@ -220,11 +251,17 @@ height: 37px;
     padding: 30px;
     box-shadow: 1px 1px 2px rgb(70, 90, 74);
   }
-  .hire{
-    background-color: #eee6e6;
+.hirehire{
+  background-color: #e0e5e9;
+  text-align:center ;
+}
+.request{
+  background-color: #4ba7e1;
+}
+  .order{
+    background-color: #d5d7d9;
+    text-align: center;
   }
-
-  
 
   
   .rapper .title{
@@ -255,7 +292,7 @@ height: 37px;
   
   .rapper .form .inputfield .input,
   .rapper .form .inputfield .textarea{
-    width: 100%;
+    width: 10cm;
     outline: none;
     border: 1px solid #d5dbd9;
     font-size: 15px;
@@ -272,7 +309,7 @@ height: 37px;
   
   .rapper .form .inputfield .custom_select{
     position: relative;
-    width: 100%;
+    width: 10cm;
     height: 37px;
   }
   
@@ -353,14 +390,14 @@ height: 37px;
   
   .rapper .form .inputfield .btn{
     width: 100%;
-     padding: 8px 10px;
+     /* padding: 8px 10px; */
     font-size: 15px; 
     border: 0px;
-    background:  #fe4107;
+    background:  #28bc2d;
     color: #fff;
     cursor: pointer;
     border-radius: 3px;
-    outline: none;
+    /* outline: none; */
   }
   
   .rapper .form .inputfield .btn:hover{
@@ -382,4 +419,14 @@ height: 37px;
     .rapper .form .inputfield.terms{
       flex-direction: row;
     }
+    }
+    .logo{
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .logo img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
     }

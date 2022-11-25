@@ -18,6 +18,8 @@ export default function Lawyers() {
         const responseData = await response.json()
         displayLawyers = responseData.map(function(data){
             return(
+
+                
                 <div className='lawyers'>
                 <h5 key={data.id}> {data.lawyername}</h5>
                 <p>{data.education}</p>
@@ -48,10 +50,12 @@ export default function Lawyers() {
 
 
 
-  return (
-    <div className='hire'>
+  return (   
+
+      <div className="hirehire">
         <h2>Chunga Mjunior Registered Advocates.</h2>
                         <p>{lawyers}</p>
         </div>
+        
   )
 }

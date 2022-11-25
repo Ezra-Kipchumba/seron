@@ -23,7 +23,7 @@ function Portal() {
         type="text"
         name="userName"
         required
-      /><br/>
+      />
        <input
         value={email}
         onChange={e => setEmail(e.target.value)}
@@ -40,7 +40,7 @@ function Portal() {
         type="password"
         name="password"
         required
-      /> 
+      /> <br></br>
       <button type="submit" onClick={handleClick}>Login</button><br></br>
       <a href="#">Forgot your password?</a>
       <p>Don't have an account yet? <a href="http://localhost:3000/signup">Sign Up Here </a></p>
