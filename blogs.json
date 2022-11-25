@@ -1,0 +1,89 @@
+{
+     "data":[
+      {
+        "id": 1,
+        "title": "ENDING CORPORAL PUNISHMENT ",
+        "content": "Until the adoption of the Children Act 2022, even though corporal punishment of children was prohibited in all settings,the common law right to punish children had not been formally repealed. With the enactment of the Children Act 2022, Kenya has formally repealed the right of parents and others to administer reasonable punishment to children. Kenya now explicitly confirms that corporal punishment shall not be inflicted upon a child by any person.The Act reiterates the Government of Kenya’s commitment to fulfilling its international and regional human rights obligations to eliminate all forms of violence against children in all settings. Kenya is part of 10 African states that have realised children's rights to protection from all corporal punishment and many more are committed to doing so. ",
+        "author": "Kipkirui Victor",
+         "lawyerid":1,
+         "lawyername":"Lucricia Nekesa",
+         "age":"35",
+         "education":"Studied law at University of Nairobi and graduated with Bachelor of Law",
+         "experience":4,
+         "linkedin":"https://www.linkedin.com",
+         "sex":"Female"
+      },
+      {
+        "id": 2,
+        "title": "ONLINE RIGHTS AND SAFETY",
+        "content": "Given the fast-growing digital landscape, the revised Children Act 2022 also explicitly states the need and obligation to protect children from harm in the online world. . ",
+        "author": "Kpsang Enock",
+        "lawyerid":2,
+         "lawyername":"Florence Fancy",
+         "linkedin":"www.linkedin.com",
+         "age":"35",
+         "education":"Studied law at Jomo Kenyatta University of Science and Technology and graduated with Bachelor of Law",
+         "experience":4,
+         "sex":"Female"
+
+      },
+      {
+        "id": 3,
+        "title": " A NEW CHILD WELFARE FUND",
+        "content": "The new Act also establishes a Child Welfare Fund to support children in distress and need. This will include financing for alternative care and all social security programmes that protect children’s rights. .",
+        "author": "Ronald",
+        "lawyerid":3,
+         "lawyername":"Juddy Chebet",
+         "linkedin":"www.linkedin.com",
+
+         "age":"35",
+         "education":"Studied law at Kisii University  and graduated with Bachelor of Law",
+         "experience":4,
+         "sex":"Female"
+      },
+      {
+        "id": 4,
+        "title": "Bomet Unveils ultra -Modern Film Hub For Creatives In The   Region ",
+        "content": "Bomet Unveils ultra -Modern Film Hub For Creatives In The   Region that will give opportunity to showcase their creative workslocally and globally .",
+        "author": "Ronald",
+        "lawyerid":4,
+         "lawyername":"Victor Kurgat",
+         "linkedin":"www.linkedin.com",
+
+         "age":"35",
+         "education":"Studied law at Mount Kenya University and graduated with Bachelor of Law",
+         "experience":4,
+         "sex":"male"
+      },
+      {
+        "id": 5,
+        "title": "Bomet Unveils ultra -Modern Film Hub For Creatives In The   Region ",
+        "content": "Bomet Unveils ultra -Modern Film Hub For Creatives In The   Region that will give opportunity to showcase their creative workslocally and globally .",
+        "author": "Ronald",
+        "lawyerid":5,
+         "lawyername":"Enock Kipsang",
+         "linkedin":"www.linkedin.com",
+
+         "age":"35",
+         "education":"Studied law at Kibabii University and graduated with Bachelor of Law",
+         "experience":5,
+         "sex":"male"
+      },
+      {
+        "id": 6,
+        "title": "Bomet Unveils ultra -Modern Film Hub For Creatives In The   Region ",
+        "content": "Bomet Unveils ultra -Modern Film Hub For Creatives In The   Region that will give opportunity to showcase their creative workslocally and globally .",
+        "author": "Ronald",
+        "lawyerid":6,
+         "lawyername":"Brenda Kurgat",
+         "linkedin":"www.linkedin.com",
+
+         "age":"35",
+         "education":"Studied law at Daystar University and graduated with Bachelor of Law",
+         "experience":4,
+         "sex":"Female"
+      }
+
+    ]
+  }
+  

@@ -1,0 +1,385 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 10px;
+  margin-left: 20px;
+  /* background-image: url("background.jpg" ); */
+  background-repeat: no-repeat;
+  background-size:200vh;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* NavBar styling */
+@media only screen and (min-width: 600px){
+.nb{
+  background-color: rgb(84, 177, 166);
+  padding-bottom: 20px;
+  padding-top: 3px;
+  box-shadow: 5px 10px 18px white ;
+}
+.nb li {
+  float:right;
+  display: inline;
+  padding-right: 20px;
+  text-decoration: none;
+  
+  
+}
+
+.nb h3{
+ 
+  font-family: 'Brush Script MT', monospace;
+}
+}
+/* newform styling */
+.fm{
+  float:right;
+  border:rgb(219, 202, 202) ;
+  box-shadow: 10px 15px 18px white;
+  background-color: rgb(177, 84, 122);
+  padding: 10px;
+}
+
+/* postscontainer styling */
+@media only screen and (min-width: 1024px){
+.posts-container{
+  
+  padding: 10px;
+  width: 800px;
+  height: 200px;
+  text-align: justify;
+}
+}
+/* contact styling */
+.contact{
+  padding-bottom: 50%;
+  margin-left: 20%;
+  color:rgb(88, 186, 180);
+  
+}
+.contact {
+padding: 30px;
+color: #1da1f2
+;
+
+}
+/* styling login */
+.login{
+  border: 0px solid black;
+  margin-right: 80.5%;
+  margin-top: 5px;
+  box-shadow: 5px 10px 13px white;
+  border-radius: 20px;
+}
+/* style buttons */
+button{
+  border-radius: 30px;
+  border: 0px;
+}
+.dlt button{
+  color: red;
+}
+/* style image */
+.image img{
+  height: 123vh;
+}
+
+.image p{
+   margin-top: -55%;
+   padding-bottom: 50%;
+   align-items: center;
+}
+ 
+.loginbox{
+  max-width: 500px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgb(3, 233, 49);
+}
+
+.wrapper{
+  max-width: 500px;
+  width: 100%;
+  background-color: rgb(64, 152, 80);
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 1px 1px 2px rgb(70, 90, 74);
+}
+.wrapper  .form .input_field{
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.wrapper .form .input_field .textarea{
+  resize: none;
+  height: 125px;
+}
+.wrapper .form .input_field .custom_select{
+  position: relative;
+  width: 100%;
+height: 37px;
+}
+.wrapper .form .inputfield label{
+  width: 200px;
+  color: #757575;
+  margin-right: 10px;
+ font-size: 14px;
+}
+.wrapper.form .input_field  .custom_select select{
+  border: 1px solid #d5dbd9;
+  width: 100%;
+  height: 100%;
+  padding: 8px 10px;
+  border-radius: 3px;
+  outline: none;
+}
+.wrapper .title{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color:white;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.wrapper .form{
+  width: 100%;
+}
+.footer{
+  background-color: #1DA1F2;
+  display: flex;
+  padding: auto;
+  justify-content: space-between;
+  
+}
+
+.footer-col{
+  color: white;
+  width: 30%;
+  padding: 0 15px;
+  display: flex;
+}
+.footer-col h4{
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+
+} 
+.footer ul li a:hover{
+  color: floralwhite;
+
+}
+
+.container{
+  max-width: 100%;
+  background-color: rgb(13, 72, 13);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .homequote{
+    text-align: center;
+    background-color:rgb(221, 193, 221);
+  }
+  .contenthome{
+    max-width: 90%;
+    display: table-column;
+    display: grid;
+    color: #fff;
+    width: 100%;
+    background-color: #4ba7e1;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgb(70, 90, 74);
+  
+  }
+  .about{
+    min-height: 64vh;
+    background-color: #f28f1d;
+  }
+  .lawyers{
+    max-width: 500px;
+    color: #fff;
+    width: 100%;
+    background-color: rgb(119, 195, 128);
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgb(70, 90, 74);
+  }
+  .hire{
+    background-color: #eee6e6;
+  }
+
+  
+
+  
+  .rapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #07d9fe;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .rapper  .form{
+    width: 100%;
+  }
+  
+  .rapper .form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .rapper .form .inputfield label{
+     width: 200px;
+     color: #757575;
+     margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .rapper .form .inputfield .input,
+  .rapper .form .inputfield .textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .rapper .form .inputfield .textarea{
+    width: 100%;
+    height: 125px;
+    resize: none;
+  }
+  
+  .rapper .form .inputfield .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+  }
+  
+  .rapper .form .inputfield .custom_select:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+    pointer-events: none;
+  }
+  
+  .rapper .form .inputfield .custom_select select{
+    -webkit-appearance: none;
+    -moz-appearance:   none;
+    appearance:        none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+  }
+  
+  
+  .rapper .form .inputfield .input:focus,
+  .rapper .form .inputfield .textarea:focus,
+  .rapper .form .inputfield .custom_select select:focus{
+    border: 1px solid #07f6fe;
+  }
+  
+  .wrapper .form .inputfield p{
+     font-size: 14px;
+     color: #757575;
+  }
+  .rapper .form .inputfield .check{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  .rapper .form .inputfield .check input[type="checkbox"]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .rapper .form .inputfield .check .checkmark{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #07fefe;
+    display: block;
+    position: relative;
+  }
+  .rapper .form .inputfield .check .checkmark:before{
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    width: 5px;
+    height: 2px;
+    border: 2px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+    display: none;
+  }
+  .rapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
+    background: #07fefe;
+  }
+  
+  .rapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
+    display: block;
+  }
+  
+  .rapper .form .inputfield .btn{
+    width: 100%;
+     padding: 8px 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  #fe4107;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  .rapper .form .inputfield .btn:hover{
+    background: #ff7c58;
+  }
+  
+  .rapper .form .inputfield:last-child{
+    margin-bottom: 0;
+  }
+  
+  @media (max-width:420px) {
+    .rapper .form .inputfield{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .rapper .form .inputfield label{
+      margin-bottom: 5px;
+    }
+    .rapper .form .inputfield.terms{
+      flex-direction: row;
+    }
+    }
