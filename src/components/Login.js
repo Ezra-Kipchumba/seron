@@ -1,27 +1,24 @@
-import React, { useState } from "react";
-import NewPost from "./NewPost";
+import React from "react";
 
 function Login(){
-  const [posts, setPosts] =useState([])
-  const [show, setShow] = useState(false);
+  // const [posts, setPosts] =useState([])
 
   function handleClick(){
     
-    setShow(show=>!show)
-    function handleNewPost(newFormData){
-      const serverOptions={
-          method:"POST",
-          headers:{
-          "Content-Type":"application/json",
-          'Accept': 'application/json'
-          },
-          body:JSON.stringify(newFormData
-          )
-          }
-          fetch('https://rnewseact-app6.herokuapp.com/', serverOptions)
-          .then(r=>r.json())
-          .then(addedPost=>setPosts(posts=>[...posts, addedPost]))
-      }
+    // function handleNewPost(newFormData){
+    //   const serverOptions={
+    //       method:"POST",
+    //       headers:{
+    //       "Content-Type":"application/json",
+    //       'Accept': 'application/json'
+    //       },
+    //       body:JSON.stringify(newFormData
+    //       )
+    //       }
+    //       fetch('https://rnewseact-app6.herokuapp.com/', serverOptions)
+    //       .then(r=>r.json())
+    //       .then(addedPost=>setPosts(posts=>[...posts, addedPost]))
+    //   }
   }
     return(
         <div className="loginbox">

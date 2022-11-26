@@ -41,8 +41,9 @@ function Portal() {
         name="password"
         required
       /> <br></br>
-      <button type="submit" onClick={handleClick}>Login</button><br></br>
-      <a href="#">Forgot your password?</a>
+     
+      <button type="submit" onClick={handleClick}><a href="http://localhost:3000/">Login </a></button><br></br>
+      <a href="http://localhost:3000/">Forgot your password?</a>
       <p>Don't have an account yet? <a href="http://localhost:3000/signup">Sign Up Here </a></p>
     </form>
     </div>

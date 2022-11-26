@@ -5,8 +5,6 @@ export default function Lawyers() {
 
         
 
-    const handleSubmit = () =>{
-       }
     const [lawyers,setLawyers] = useState()
 
     const getUrl = "http://localhost:5000/data"
@@ -23,7 +21,7 @@ export default function Lawyers() {
                 <div className='lawyers'>
                 <h5 key={data.id}> {data.lawyername}</h5>
                 <p>{data.education}</p>
-                <p><a href='#'>{data.linkedin}</a></p>
+                <p><a href='https://www.linkedin.com/in/seron-cj-45a5931b3/'>{data.linkedin}</a></p>
 
                 <button><a href='http://localhost:3000/request'>Hire</a></button>
              

@@ -1,17 +1,12 @@
 
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
-import Login from "./Login";
 import  logo  from'../images/logo2.jpeg'
 
 
 function NavBar() {
 
-    const [showForm, setShowForm]= useState(false)
-    function handleClick(){
-        setShowForm(showForm=>!showForm)
-    }
+  
     return (
       <div className="nb">
           <div className="logo">

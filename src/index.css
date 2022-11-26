@@ -126,35 +126,33 @@ button{
   box-shadow: 1px 1px 2px rgb(103, 149, 112);
 }
 
-.wrapper{
-  max-width: 50px;
-  width: 20%;
-  background-color: rgb(64, 152, 80);
+.rapper{
+  
+  background-color: rgb(58, 64, 58);
   margin: 20px auto;
   padding: 30px;
-  box-shadow: 1px 1px 2px rgb(70, 90, 74);
+  /* box-shadow: 1px 1px 2px rgb(229, 229, 229); */
 }
-.wrapper  .form .input_field{
+.rapper  .form .input_field{
   margin-bottom: 15px;
   display: flex;
   align-items: center;
 }
-.wrapper .form .input_field .textarea{
+.rapper .form .input_field .textarea{
   resize: none;
   height: 125px;
 }
-.wrapper .form .input_field .custom_select{
+.rapper .form .input_field .custom_select{
   position: relative;
   width: 100%;
 height: 37px;
 }
-.wrapper .form .inputfield label{
+.rapper .form .inputfield label{
   width: 200px;
-  color: #757575;
+  color: hsl(0, 0%, 93%);
   margin-right: 10px;
- font-size: 14px;
 }
-.wrapper.form .input_field  .custom_select select{
+.rapper.form .input_field  .custom_select select{
   border: 1px solid #d5dbd9;
   width: 100%;
   height: 100%;
@@ -162,7 +160,7 @@ height: 37px;
   border-radius: 3px;
   outline: none;
 }
-.wrapper .title{
+.rapper .title{
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
@@ -171,7 +169,7 @@ height: 37px;
   text-align: center;
 
 }
-.wrapper .form{
+.rapper .form{
   width: 100%;
 }
 .footer{
@@ -179,7 +177,7 @@ height: 37px;
   /* display: flex; */
   /* padding: auto; */
   justify-content: space-between;
-  position: absolute;
+  /* position: absolute; */
     bottom: 0;
     width: 100%;
     height: 8rem;
@@ -193,10 +191,13 @@ height: 37px;
   /* display: flex; */
 }
 .reg{
-  background-color:  #141516;
+  background-color:  #6e6e70;
+  text-decoration-color: white;
   text-align: end;
-  color: white;
+  color: #0a15eb;
+  text-align: start;
   margin-right: 1cm;
+  max-width: 25cm;
 }
 .footer-col h4{
   font-size: 18px;
@@ -283,12 +284,12 @@ height: 37px;
     align-items: center;
   }
   
-  .rapper .form .inputfield label{
+  /* .rapper .form .inputfield label{
      width: 200px;
      color: #757575;
      margin-right: 10px;
     font-size: 14px;
-  }
+  } */
   
   .rapper .form .inputfield .input,
   .rapper .form .inputfield .textarea{
@@ -341,10 +342,10 @@ height: 37px;
   .rapper .form .inputfield .input:focus,
   .rapper .form .inputfield .textarea:focus,
   .rapper .form .inputfield .custom_select select:focus{
-    border: 1px solid #07f6fe;
+    border: 1px solid #fdfdfd;
   }
   
-  .wrapper .form .inputfield p{
+  .rapper .form .inputfield p{
      font-size: 14px;
      color: #757575;
   }
@@ -413,9 +414,10 @@ height: 37px;
       flex-direction: column;
       align-items: flex-start;
     }
-    .rapper .form .inputfield label{
+    /* .rapper .form .inputfield label{
       margin-bottom: 5px;
-    }
+      color: #d5d7d9;
+    } */
     .rapper .form .inputfield.terms{
       flex-direction: row;
     }

@@ -25,7 +25,7 @@ function Request() {
             value={order}
             onChange={e => setOrder(e.target.value)}
             placeholder="File your complaint here"
-            name="textarea" rows="25" cols="60">Write something here</textarea>   
+            name="textarea" rows="15" cols="50">Write something here</textarea>   
       <button type="submit" onClick={handleSubmit}><a href="http://localhost:3000/">Submit</a></button>
     </form>
 
