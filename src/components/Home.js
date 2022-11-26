@@ -48,25 +48,30 @@ export default function Home() {
 
   return (
     <>
-
-      <figure className="text-center" >
-          <blockquote className="blockquote">
-            <p>“If God places a child before you, and you are too busy to wield either a positive or negative influence…you just did the latter! You communicated that the child doesn’t matter and isn’t important.” 
-              </p>
-          </blockquote>
-          <figcaption className="blockquote-footer">
-            <cite title="Source Title">― Wess Stafford, President Emeritus of Compassion International</cite>
-          </figcaption>
+      <div></div>
+      <figure className="text-center">
+        <blockquote className="blockquote">
+          <p>
+            “If God places a child before you, and you are too busy to wield
+            either a positive or negative influence…you just did the latter! You
+            communicated that the child doesn’t matter and isn’t important.”
+          </p>
+        </blockquote>
+        <figcaption className="blockquote-footer">
+          <cite title="Source Title">
+            ― Wess Stafford, President Emeritus of Compassion International
+          </cite>
+        </figcaption>
       </figure>
+      <img
+        src={require("../images/back3.jpg")}
+        height="400"
+        className="back3"
+        alt="img"
+      ></img>
+      <br></br>
 
-      <div className="card-group">
-        {showData}
-      </div>
-
-      
-            
-
-       
-           </>
-  )
+      <div className="card-group">{showData}</div>
+    </>
+  );
 }

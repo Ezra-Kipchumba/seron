@@ -10,42 +10,53 @@ function Portal() {
   }
 
   return (
-
-    
     <div className="loginbox">
-    <form>
-      <h1>Login here</h1>
-      
-      <input
-        value={userName}
-        onChange={e => setUserName(e.target.value)}
-        placeholder="User name"
-        type="text"
-        name="userName"
-        required
-      />
-       <input
-        value={email}
-        onChange={e => setEmail(e.target.value)}
-        placeholder="Email address"
-        type="email"
-        name="email"
-        required
-      /><br/>
-      
+      <form className="forms">
+        <br></br>
+        <br></br>
+        <h1>Login here</h1>
         <input
-        value={password}
-        onChange={e => setPassword(e.target.value)}
-        placeholder="Password"
-        type="password"
-        name="password"
-        required
-      /> <br></br>
-     
-      <button type="submit" onClick={handleClick}><a href="http://localhost:3000/">Login </a></button><br></br>
-      <a href="http://localhost:3000/">Forgot your password?</a>
-      <p>Don't have an account yet? <a href="http://localhost:3000/signup">Sign Up Here </a></p>
-    </form>
+          value={userName}
+          onChange={(e) => setUserName(e.target.value)}
+          placeholder="User name"
+          type="text"
+          name="userName"
+          className="form-group form-control"
+          required
+        />
+        <input
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Email address"
+          type="email"
+          name="email"
+          className="form-group form-control"
+          required
+        />
+        <br />
+        <input
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          placeholder="Password"
+          type="password"
+          name="password"
+          className="form-group form-control"
+          required
+        />{" "}
+        <br></br>
+        <button
+          type="submit"
+          onClick={handleClick}
+          className="btn btn-primary">
+          <a href="/" id="btn">Login </a>
+        </button>
+        <br></br>
+        <a href="/">Forgot your password?</a>
+        <p>
+          Don't have an account yet?{" "}
+          <a href="./Signup">Sign Up Here </a>
+        </p>
+      </form>
     </div>
   );
 }

@@ -3,12 +3,7 @@ import Home from "./Home";
 
 
 function NewPost({onSubmission}){
-    const[newPostForm, setNewPostForm]= useState({title:"", content:"",author:""})
-    
-
-
-
-;
+    const[newPostForm, setNewPostForm]= useState({title:"", content:"",author:""});
 
     function handleOnChange(event){
         event.preventDefault()

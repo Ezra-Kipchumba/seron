@@ -1,6 +1,5 @@
 
 import React from "react";
-import { NavLink } from "react-router-dom";
 import  logo  from'../images/logo2.jpeg'
 
 
@@ -8,43 +7,44 @@ function NavBar() {
 
   
     return (
-      <div className="nb">
-          <div className="logo">
-            <img src={logo} className="logo" alt="logo"/>
-            <h2>Chunga Mjunior</h2>
+      <div className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div className="logo">
+          <img src={logo} className="logo" alt="logo" />
+        </div>
+        <div className="collapse navbar-collapse">
+          <div class="collapse navbar-collapse" id="navbar">
+            <h1 className="header">
+              <a href="/" id="ch">
+                Chunga Mjunior
+              </a>
+            </h1>
+            <form class="form-inline" id="inline">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              ></input>
+            </form>
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./About">
+                  About Us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Portal">
+                  Portal
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contact">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
           </div>
-          
-          <ul >
-          <li><NavLink to="/" style={({ isActive }) => ({
-                    color: isActive ? '#fff' : '#545e6f',
-                    background: isActive ? '#7600dc' : '#f0f0f0',
-                    textDecoration: 'none',
-                    padding: '3px'
-                  })} >Home </NavLink></li>
-
-            <li><NavLink to="/about" style={({ isActive }) => ({
-                    color: isActive ? '#fff' : '#545e6f',
-                    background: isActive ? '#7600dc' : '#f0f0f0',
-                     textDecoration: 'none',
-                    padding: '4px'
-                  })} > About Us </NavLink></li>
-      
-
-            <li><NavLink to="/portal" style={({ isActive }) => ({
-                    color: isActive ? '#fff' : '#545e6f',
-                    background: isActive ? '#7600dc' : '#f0f0f0',
-                    textDecoration: 'none',
-                    padding: '4px'
-                  })} > Portal</NavLink></li>
-
-            <li><NavLink to="/contact" style={({ isActive }) => ({
-                    color: isActive ? '#fff' : '#545e6f',
-                    background: isActive ? '#7600dc' : '#f0f0f0',
-                    textDecoration: 'none',
-                    padding: '4px'
-                  })} > Contact Us</NavLink></li>
-            
-          </ul>
+        </div>
       </div>
     );
   }
