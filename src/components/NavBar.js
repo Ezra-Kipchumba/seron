@@ -17,14 +17,14 @@ function NavBar() {
           <ul >
           <li><NavLink to="/" style={({ isActive }) => ({
                     color: isActive ? '#fff' : '#545e6f',
-                    // background: isActive ? '#7600dc' : '#f0f0f0',
+                    background: isActive ? '#7600dc' : '#f0f0f0',
                     textDecoration: 'none',
                     padding: '3px'
                   })} >Home </NavLink></li>
 
             <li><NavLink to="/about" style={({ isActive }) => ({
                     color: isActive ? '#fff' : '#545e6f',
-                    // background: isActive ? '#7600dc' : '#f0f0f0',
+                    background: isActive ? '#7600dc' : '#f0f0f0',
                      textDecoration: 'none',
                     padding: '4px'
                   })} > About Us </NavLink></li>
@@ -32,14 +32,14 @@ function NavBar() {
 
             <li><NavLink to="/portal" style={({ isActive }) => ({
                     color: isActive ? '#fff' : '#545e6f',
-                    // background: isActive ? '#7600dc' : '#f0f0f0',
+                    background: isActive ? '#7600dc' : '#f0f0f0',
                     textDecoration: 'none',
                     padding: '4px'
                   })} > Portal</NavLink></li>
 
             <li><NavLink to="/contact" style={({ isActive }) => ({
                     color: isActive ? '#fff' : '#545e6f',
-                    // background: isActive ? '#7600dc' : '#f0f0f0',
+                    background: isActive ? '#7600dc' : '#f0f0f0',
                     textDecoration: 'none',
                     padding: '4px'
                   })} > Contact Us</NavLink></li>

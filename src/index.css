@@ -47,11 +47,14 @@ code {
 
 }
 
-/* .nb li {
+.nb li {
   display: inline;
+  font-size: larger;
+  color: white;
+  font-weight: bold;
   padding-right: 20px;
   text-decoration: none;
-} */
+}
 
 .nb h3{
  
@@ -177,10 +180,10 @@ height: 37px;
   /* display: flex; */
   /* padding: auto; */
   justify-content: space-between;
-  /* position: absolute; */
+  position: relative;
     bottom: 0;
     width: 100%;
-    height: 8rem;
+    height: 13.6rem;
   
 }
 
@@ -198,6 +201,7 @@ height: 37px;
   text-align: start;
   margin-right: 1cm;
   max-width: 25cm;
+  position: relative;
 }
 .footer-col h4{
   font-size: 18px;
@@ -352,12 +356,12 @@ height: 37px;
   .rapper .form .inputfield .check{
     width: 15px;
     height: 15px;
-    position: relative;
+    /* position: relative; */
     display: block;
     cursor: pointer;
   }
   .rapper .form .inputfield .check input[type="checkbox"]{
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
     opacity: 0;
@@ -367,7 +371,7 @@ height: 37px;
     height: 15px;
     border: 1px solid #07fefe;
     display: block;
-    position: relative;
+    /* position: relative; */
   }
   .rapper .form .inputfield .check .checkmark:before{
     content: "";
